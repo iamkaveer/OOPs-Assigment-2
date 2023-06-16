@@ -1,13 +1,13 @@
 import java.util.Scanner;
 
-public class CoffeeMachine {
+public class CoffeeMachineSimulator {
     private int water;
     private int milk;
     private int beans;
     private int money;
     private int totalMoney;
 
-    public CoffeeMachine() {
+    public CoffeeMachineSimulator() {
         this.water = 0;
         this.milk = 0;
         this.beans = 0;
@@ -72,7 +72,7 @@ public class CoffeeMachine {
 
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        CoffeeMachine coffeeMachine = new CoffeeMachine();
+        CoffeeMachineSimulator coffeeMachine = new CoffeeMachineSimulator();
 
         System.out.println("Coffee Machine Simulator");
         System.out.println("Enter commands: buy, fill, take, show, exit");
